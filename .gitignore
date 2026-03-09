@@ -1,0 +1,19 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Test run output directories (timestamped, generated at runtime)
+runs/
+
+# Legacy flat output files (pre-runs/ structure)
+smt-cs.json
+smt-tc.json
+smt-tre256.json
+snomed-ct.zip
+snomed-ct-fr.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
