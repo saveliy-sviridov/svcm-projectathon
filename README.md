@@ -12,23 +12,3 @@ Jupyter notebook implementing the **SVCM Terminology Consumer** nominal test cas
 2. Open the notebook: `jupyter notebook`
 3. Fill in your SMT API key in the **Configuration** cell (`API_KEY = "..."`)
 4. Run all cells top to bottom
-
-## What it covers
-
-| Steps | Transaction | Description |
-|-------|-------------|-------------|
-| 10–30 | ITI-95 | GET CapabilityStatement général |
-| 50–70 | ITI-95 | GET CapabilityStatement terminologique |
-| 90–150 | ITI-95 | GET TRE-R256-TypeMessagerie + diff versions |
-| 170–190 | ITI-95 | SNOMED CT International (metadata + download) |
-| 210–230 | ITI-95 | SNOMED CT France extension (metadata + download) |
-
-## Output files
-
-Generated at runtime, not committed to VCS:
-
-- `smt-cs.json` — CapabilityStatement général
-- `smt-tc.json` — CapabilityStatement terminologique
-- `smt-tre256.json` — CodeSystem TRE-R256-TypeMessagerie
-- `snomed-ct.zip` — SNOMED CT International
-- `snomed-ct-fr.zip` — SNOMED CT France
